@@ -1,0 +1,7 @@
+Some quick notes:
+
+Hand claculations show that the correct output for both cases is in fact A.
+README.md has been updated to reflect this
+
+The lack of consitent commits during the testing process was to follow the order of instructions:
+I now realise this was besides the point.
