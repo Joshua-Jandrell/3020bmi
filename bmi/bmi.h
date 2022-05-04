@@ -44,6 +44,10 @@ char categorise(double kg, double metre)
 
 void process_data(char* input_file, char* output_file)
 {
+	if(input_file == nullptr || output_file == nullptr){
+		cout << "Fatal Error: Insufficent arguments" << endl;
+		return;
+	}
     ifstream f_in;
     ofstream f_out;
     string data;
