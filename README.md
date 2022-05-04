@@ -25,14 +25,14 @@ Assume the following conversion:
 * 12 inches in a foot
 * 3.28 feet in a metre
 
-# How to build and test
+# How to build and test in bmi folder
 
 ```
 make
 make test
 ```
 
-# How the program should be run
+# How the program should be run (from bmi folder)
 
 The program is run from the command line. It should take two command-line arguments: the name of an input file and the name of an output file. For example
 
@@ -46,3 +46,20 @@ This opens the file `study.dat` categorises each person and puts the result in t
 A7B3 A
 CC2E A
 ```
+
+# How to test bmi from the TestCode folder
+Build test program
+```
+g++ -o test.exe test_bmi.cpp
+```
+Run test.exe program
+```
+.\test.exe
+```
+If all tests are passed then only the following should be displayed in the consol.
+```
+=========================
+----- TEST COMPLETE -----
+=========================
+```
+
